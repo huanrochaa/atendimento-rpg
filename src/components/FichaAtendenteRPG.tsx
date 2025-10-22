@@ -38,28 +38,28 @@ const MOCK_LEVELS = [
 ];
 
 const MOCK_AGENT = {
-  id: "A001",
-  nome: "Ana Silva",
-  equipe: "Level 1",
+  id: "JEDI001",
+  nome: "Mestre Yoda",
+  equipe: "Ordem Jedi",
   avatarUrl:
-    "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=512&auto=format&fit=crop",
-  nivelAtual: 3,
-  xpTotal: 850,
+    "https://upload.wikimedia.org/wikipedia/en/9/9b/Yoda_Empire_Strikes_Back.png",
+  nivelAtual: 20,
+  xpTotal: 30500,
   atributos: {
-    comunicacao: 82,
-    conhecimento: 76,
-    agilidade: 88,
-    efetividade: 90,
-    experiencia: 84,
+    comunicacao: 99,
+    conhecimento: 100,
+    agilidade: 85,
+    efetividade: 95,
+    experiencia: 100,
   },
   badges: [
-    { id: "B_VELO", nome: "Velocista", icone: "🏃", descricao: "Rapidez com qualidade" },
-    { id: "B_WIKI", nome: "Mestre da Wiki", icone: "📚", descricao: "Domínio dos processos" },
+    { id: "B_FORCE", nome: "Mestre da Força", icone: "🧘‍♂️", descricao: "Usa a Força com sabedoria" },
+    { id: "B_LIGHTSABER", nome: "Guardião Jedi", icone: "⚔️", descricao: "Habilidade lendária com sabre de luz" },
   ],
   kpis: [
-    { id: "M_TMA", nome: "TMA (min)", valor: 5.2, direcao: "menor-melhor", meta: 6 },
-    { id: "M_FCR", nome: "FCR (%)", valor: 88, direcao: "maior-melhor", meta: 85 },
-    { id: "M_CSAT", nome: "CSAT", valor: 91, direcao: "maior-melhor", meta: 85 },
+    { id: "M_TMA", nome: "TMA (min)", valor: 3.0, direcao: "menor-melhor", meta: 6 },
+    { id: "M_FCR", nome: "FCR (%)", valor: 99, direcao: "maior-melhor", meta: 85 },
+    { id: "M_CSAT", nome: "CSAT", valor: 100, direcao: "maior-melhor", meta: 85 },
   ],
 };
 
